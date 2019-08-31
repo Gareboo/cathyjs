@@ -1,5 +1,5 @@
 # Cathyjs
-A chatbot api which is completely free. It is mainly created for discord bots. It can be used in other fields too.
+A chatbot api which is completely free. It is mainly created for discord bots.
 
 # Installing
 [![NPM](https://nodei.co/npm/cathyjs.png)](https://nodei.co/npm/cathyjs/)
