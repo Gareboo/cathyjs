@@ -23,4 +23,4 @@ client.on("message", async (message) => {
     }
 });
  
-client.login("putyourowntoken")
+client.login("putyourowntokenree")
