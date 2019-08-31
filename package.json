@@ -24,6 +24,7 @@
     },
     "homepage": "https://github.com/xenowing/cathyjs#readme",
     "dependencies": {
-        "discord.js": "^11.5.1"
+        "discord.js": "^11.5.1",
+        "cathyjs": "^3.0.2"
     }
 }
