@@ -11,7 +11,8 @@ npm install cathyjs
 ```js
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const cathyjs = require("cathyjs");
+const Cathy = require("cathyjs");
+const cathyjs = new Cathy();
 
 client.on("ready", () => {
     console.log(`${client.user.tag} is online!`)
@@ -21,12 +22,12 @@ client.on("message", async (message) => {
     
     let channel = client.channels.get("yourchannelid")
     
-    if (message.channel.id == channel.id) {
+    if (message.channel.id === channel.id) {
  
         let text = message.content
         channel.startTyping();
     
-        var reply = await cathyjs.startchatting(`${text}`);
+        var reply = await cathyjs.startChatting(`${text}`);
     
     
         channel.send(`${message.author}, ${reply}`);
