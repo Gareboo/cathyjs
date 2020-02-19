@@ -1,30 +1,33 @@
 {
-    "name": "cathyjsbot",
-    "version": "1.0.0",
-    "description": "A Cool Chatbot For Discord Written In JavaScript.",
-    "main": "bot.js",
-    "scripts": {
-        "test": "node bot.js",
-        "start": "node bot.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/xenowing/cathyjs.git"
-    },
-    "keywords": [
-        "cathyjsbot",
-        "chattycathybot",
-        "discordchatbot",
-        "mychatbot"
-    ],
-    "author": "XENO",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/xenowing/cathyjs/issues"
-    },
-    "homepage": "https://github.com/xenowing/cathyjs#readme",
-    "dependencies": {
-        "discord.js": "^11.5.1",
-        "cathyjs": "^3.0.2"
-    }
+  "name": "cathyjs",
+  "version": "5.0.3",
+  "description": "Simple chatbot module for discord bots or websites with faster response.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INEX07/cathyjs.git"
+  },
+  "keywords": [
+    "cathyjs",
+    "discord-bot",
+    "chatty-cathy",
+    "cathy",
+    "chatbot",
+    "fast",
+    "fast-chatbot",
+    "free",
+    "discord-chatbot"
+  ],
+  "author": "INEX07",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/INEX07/cathyjs/issues"
+  },
+  "homepage": "https://github.com/INEX07/cathyjs#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
 }
