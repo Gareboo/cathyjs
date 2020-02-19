@@ -1,43 +1,21 @@
 # Cathyjs
-A chatbot api which is completely free. It is mainly created for discord bots.
+Simple chatbot module for discord bots or websites with faster response.
 
 # Installing
-[![NPM](https://nodei.co/npm/cathyjs.png)](https://nodei.co/npm/cathyjs/)
-```js
+<p class="badge-only"><a href="https://nodei.co/npm/cathyjs/"><img src="https://nodei.co/npm/cathyjs.png" alt="NPM" class="badge"></a></p>
+
+```
 npm install cathyjs
 ```
 
 # Usage
+
 ```js
-const Discord = require("discord.js");
-const client = new Discord.Client();
 const Cathy = require("cathyjs");
-const cathyjs = new Cathy();
+const cathy = new Cathy();
 
-client.on("ready", () => {
-    console.log(`${client.user.tag} is online!`)
-});
-
-client.on("message", async (message) => {
-    
-    let channel = client.channels.get("yourchannelid")
-    
-    if (message.channel.id === channel.id) {
- 
-        let text = message.content
-        channel.startTyping();
-    
-        var reply = await cathyjs.startChatting(`${text}`);
-    
-    
-        channel.send(`${message.author}, ${reply}`);
-        message.channel.stopTyping();
-    }
-});
-
-client.login("putyourowntoken")
-
+cathy.startChatting("hi").then(console.log);
 ```
 
 # Join my discord
-https://discord.gg/A7r6RtS
+https://discord.gg/AHdaSqr
